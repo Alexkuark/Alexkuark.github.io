@@ -7,26 +7,6 @@ function actualiser(){
 
 	map.locate({setView: true, maxZoom: 16});
 
-	$.getJSON("json/Partenaires.geojson", function( data ) {
-
-		if (typeof overlays.partenaires !== 'undefined') {
-			mycontrol.removeLayer(overlays.partenaires);
-		}
-		overlays.partenaires = L.geoJSON(data, {
-				pointToLayer: function (feature, latlng) {
-					return L.marker(latlng, {
-						icon: L.icon({
-							iconUrl: feature.properties.logo,
-							iconSize:     [50, 50]
-						})
-					});
-				}
-			}).bindPopup(function (layer) {
-				return layer.feature.properties.nom;
-			}).addTo(map);
-
-			mycontrol.addOverlay(overlays.partenaires, 'Partenaires');
-	});
 }
 
 $(document).ready(function(){
