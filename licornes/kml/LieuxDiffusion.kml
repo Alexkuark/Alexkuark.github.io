@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="LieuxDiffusion" id="LieuxDiffusion">
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="string"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+</Schema>
+<Folder><name>LieuxDiffusion</name>
+  <Placemark>
+	<name>Maison des étudiants - Bâtiment 34</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8608288,43.6320838,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bâtiment 36</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8618821,43.6311656,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bâtiment 7</name>
+      <Point><coordinates>3.86322769520833,43.63169163,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>École Polytech Montpellier</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8627226,43.6326238,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bibliothèque Universitaire</name>
+	<description>Pas besoin d'autorisation</description>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8701622,43.6333451,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paints &amp; Games</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8765582,43.614881,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lud'm</name>
+	<description>Partenaire</description>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8759996,43.6092996,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cité U' Vert-Bois</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8711653,43.6354123,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>La Librairie du Manoir</name>
+	<description>Partenaire</description>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8824039,43.6048564,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>L'Antre 2 Jeux</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8769648,43.609651,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Les Castors - Bar à Jeux</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8766864,43.6093608,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>L'Ouvre-Boîtes</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8246458,43.5768793,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>La Cagette de Montpellier</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8732525,43.603895,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Les Petits Debs</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8747771,43.5997233,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Maison des étudiants - Aimé Shoenig - Espace Richter</name>
+	<description>Pas besoin d'autorisation</description>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8990328,43.604204,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Faculté de Droit Montpellier</name>
+	<description>3 panneau, 2 à l'étage cote machine à café et 1 devant</description>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8673994,43.6130269,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Faculté de Droit et Science politique</name>
+	<ExtendedData><SchemaData schemaUrl="#LieuxDiffusion">
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.8771751,43.6139791,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Maître Renard</name>
+      <Point><coordinates>3.9339618187915,43.5853620824912,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bàtiment D</name>
+	<description>3 dehors + 1 dans le hall</description>
+      <Point><coordinates>3.86995853875598,43.633817626916,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cafétéria Universitaire Vert Bois</name>
+	<description>Demander l'autorisation</description>
+      <Point><coordinates>3.870609771662,43.6347374030363,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cafétéria universitaire UPVM3</name>
+	<description>Pas besoin d'autorisation</description>
+      <Point><coordinates>3.8686753739841,43.6330808010039,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AlphaNef</name>
+	<description>futur partenaire</description>
+      <Point><coordinates>3.87910604889129,43.6126057568685,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

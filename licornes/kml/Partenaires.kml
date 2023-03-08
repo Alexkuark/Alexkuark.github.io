@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Partenaires" id="Partenaires">
+	<SimpleField name="nom" type="string"></SimpleField>
+	<SimpleField name="logo" type="string"></SimpleField>
+</Schema>
+<Folder><name>Partenaires</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">ASSO7</SimpleData>
+		<SimpleData name="logo">images/logos/asso7.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.87035453867373,43.6342337120769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">L.I.C.O.R.N.E.S.</SimpleData>
+		<SimpleData name="logo">images/logos/licornes.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.86078661592886,43.6320516553585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">Les Castors</SimpleData>
+		<SimpleData name="logo">images/logos/castors.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.87675807828286,43.6093385249835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">Lud'm</SimpleData>
+		<SimpleData name="logo">images/logos/lud_m.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.87602382862248,43.6093294276304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">Délice Tacos</SimpleData>
+		<SimpleData name="logo">images/logos/delicetacos.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.85823053228229,43.6310621847474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">L'Antre 2 Jeux</SimpleData>
+		<SimpleData name="logo">images/logos/antre2jeux.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.87699680135692,43.609685443756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">Festival du Jeu de Montpellier</SimpleData>
+		<SimpleData name="logo">images/logos/fjm.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.88214175859743,43.6130350429288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Partenaires">
+		<SimpleData name="nom">Manoir du Crime</SimpleData>
+		<SimpleData name="logo">images/logos/manoir.png</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>3.88240278485344,43.6048610376997</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
