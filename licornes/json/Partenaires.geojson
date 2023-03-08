@@ -5,7 +5,6 @@
 "features": [
 { "type": "Feature", "properties": { "nom": "ASSO7", "logo": "images/logos/asso7.png" }, "geometry": { "type": "Point", "coordinates": [ 3.870354538673727, 43.634233712076856 ] } },
 { "type": "Feature", "properties": { "nom": "L.I.C.O.R.N.E.S.", "logo": "images/logos/licornes.png" }, "geometry": { "type": "Point", "coordinates": [ 3.860786615928863, 43.632051655358531 ] } },
-{ "type": "Feature", "properties": { "nom": "Les Castors", "logo": "images/logos/castors.jpg" }, "geometry": { "type": "Point", "coordinates": [ 3.876758078282865, 43.609338524983514 ] } },
 { "type": "Feature", "properties": { "nom": "Lud'm", "logo": "images/logos/Lud_m.png" }, "geometry": { "type": "Point", "coordinates": [ 3.876023828622481, 43.609329427630385 ] } },
 { "type": "Feature", "properties": { "nom": "Délice Tacos", "logo": "images/logos/delicetacos.png" }, "geometry": { "type": "Point", "coordinates": [ 3.858230532282295, 43.631062184747385 ] } },
 { "type": "Feature", "properties": { "nom": "L'Antre 2 Jeux", "logo": "images/logos/antre2jeux.png" }, "geometry": { "type": "Point", "coordinates": [ 3.876996801356925, 43.609685443755986 ] } },
