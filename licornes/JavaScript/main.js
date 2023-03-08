@@ -7,43 +7,6 @@ function actualiser(){
 
 	map.locate({setView: true, maxZoom: 16});
 
-	if (typeof overlays.universites == 'undefined') {
-		$.getJSON("json/Universites.geojson", function( data ) {
-			overlays.universites = L.layerGroup();
-			L.geoJSON(data, {
-				style: function (feature) {
-					return {color: feature.properties.color};
-				}
-			}).bindPopup(function (layer) {
-				return layer.feature.properties.name;
-			}).addTo(map);
-
-			mycontrol.addOverlay(overlays.universites, 'Universités');
-		});
-	}
-
-	$.getJSON("json/LieuxDiffusion.geojson", function( data ) {
-
-		if (typeof overlays.LieuxDiffusion !== 'undefined') {
-			mycontrol.removeLayer(overlays.LieuxDiffusion);
-		}
-		overlays.LieuxDiffusion = L.geoJSON(data, {
-				pointToLayer: function (feature, latlng) {
-					return L.circleMarker(latlng, {
-						radius: 5,
-						color: "#000",
-						weight: 1,
-						opacity: 1,
-						fillOpacity: 0.8
-					});
-				}
-			}).bindPopup(function (layer) {
-				return layer.feature.properties.Name;
-			}).addTo(map);
-
-			mycontrol.addOverlay(overlays.LieuxDiffusion, 'Lieux de diffusion');
-	});
-
 	$.getJSON("json/Partenaires.geojson", function( data ) {
 
 		if (typeof overlays.partenaires !== 'undefined') {
@@ -69,14 +32,62 @@ function actualiser(){
 $(document).ready(function(){
 
 	map = L.map("map").setView([43.6323, 3.8702986], 16);
+	
+	$.getJSON("json/Universites.geojson", function( data ) {
+		overlays.universites = L.layerGroup();
+		L.geoJSON(data, {
+			style: function (feature) {
+				return {color: feature.properties.color};
+			}
+		}).bindPopup(function (layer) {
+			return layer.feature.properties.name;
+		}).addTo(map);
 
+		mycontrol.addOverlay(overlays.universites, 'Universités');
+	});
+	
+	$.getJSON("json/LieuxDiffusion.geojson", function( data ) {
+		overlays.LieuxDiffusion = L.geoJSON(data, {
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 5,
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		}).bindPopup(function (layer) {
+			return layer.feature.properties.Name;
+		}).addTo(map);
+
+		mycontrol.addOverlay(overlays.LieuxDiffusion, 'Lieux de diffusion');
+	});
+	
+	$.getJSON("json/Partenaires.geojson", function( data ) {
+		overlays.partenaires = L.geoJSON(data, {
+			pointToLayer: function (feature, latlng) {
+				return L.marker(latlng, {
+					icon: L.icon({
+						iconUrl: feature.properties.logo,
+						iconSize:     [50, 50]
+					})
+				});
+			}
+		}).bindPopup(function (layer) {
+			return layer.feature.properties.nom;
+		}).addTo(map);
+
+		mycontrol.addOverlay(overlays.partenaires, 'Partenaires');
+	});
+	
 	var popup = L.popup();
 
 	function onMapClick(e) {
 		
-    	popup
-        	.setLatLng(e.latlng)
-        	.setContent("You clicked the map at " + e.latlng.lat + ", " + e.latlng.lng + '.')
+    		popup
+        		.setLatLng(e.latlng)
+        		.setContent("You clicked the map at " + e.latlng.lat + ", " + e.latlng.lng + '.')
 			.openOn(map);
 		
 	}
