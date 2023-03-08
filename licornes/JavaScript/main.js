@@ -44,7 +44,7 @@ function actualiser(){
 			mycontrol.addOverlay(overlays.LieuxDiffusion, 'Lieux de diffusion');
 	});
 
-	$.getJSON("getData.php", function( data ) {
+	$.getJSON("json/Partenaires.geojson", function( data ) {
 
 		if (typeof overlays.partenaires !== 'undefined') {
 			mycontrol.removeLayer(overlays.partenaires);
